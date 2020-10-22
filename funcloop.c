@@ -21,7 +21,7 @@ int main(void)
 	if(pid == 0)
 	{
 		childTask();
-		exit(EXIT_SUCCESS);
+		exit(EXIT_SUCCESS);		
 	}
 	else if(pid>0)
 	{

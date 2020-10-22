@@ -13,7 +13,7 @@ int main(void)
 		if(pid ==0)
 		{ 
 			printf("Child process => PPID=%d, PID=%d\n" , getppid(), getpid());
-			exit(0);
+			
 		}
 		
 		else{
